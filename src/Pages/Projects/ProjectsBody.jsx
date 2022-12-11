@@ -9,7 +9,9 @@ const ProjectsBody = () => {
       </h1>
       <div className="lg:flex  sm:block md:block mt-8">
         {/* card-1 */}
-        <div className="card  card-compact bg-base-100 shadow-xl">
+        <div data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" className="card  card-compact bg-base-100 shadow-xl">
           <figure>
             <img src="https://i.ibb.co/gyZXymp/Athetic-Dent.png" alt="Shoes" />
           </figure>
@@ -39,7 +41,8 @@ const ProjectsBody = () => {
           </div>
         </div>
         {/* card-2 */}
-        <div className="card  lg:mx-8 md:my-8 sm:my-8 lg:my-0 card-compact bg-base-100 shadow-xl">
+        <div data-aos="fade-up"
+     data-aos-duration="2000" className="card  lg:mx-8 md:my-8 sm:my-8 lg:my-0 card-compact bg-base-100 shadow-xl">
           <figure>
             <img src="https://i.ibb.co/4SnDZd5/TireX.png" alt="Shoes" />
           </figure>
@@ -69,7 +72,9 @@ const ProjectsBody = () => {
           </div>
         </div>
         {/* card-3 */}
-        <div className="card  card-compact bg-base-100 shadow-xl">
+        <div data-aos="fade-left"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" className="card  card-compact bg-base-100 shadow-xl">
           <figure>
             <img src="https://i.ibb.co/Z6c78TR/P-Teams.png" alt="Shoes" />
           </figure>

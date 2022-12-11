@@ -4,7 +4,7 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const AboutMe = () => {
   return (
-    <div id="aboutme" className="bg-base-300">
+    <div data-aos="zoom-in" id="aboutme" className="bg-base-300">
 
       <div className="lg:flex justify-center items-center">
         <div className="avatar">

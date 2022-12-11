@@ -2,7 +2,9 @@ import React from 'react'
 
 const Blogs = () => {
   return (
-    <div id='blogs'>
+    <div data-aos="flip-left"
+    data-aos-easing="ease-out-cubic"
+    data-aos-duration="2000" id='blogs'>
         <h1 className='text-center text-4xl mt-12'>This is blogs</h1>
         <div className='flex -pt-8 lg:ml-12 justify-center items-center'>
 

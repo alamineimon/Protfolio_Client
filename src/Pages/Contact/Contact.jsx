@@ -3,7 +3,8 @@ import "../Shared/Navbar/Navbar.css";
 
 const Contact = () => {
   return (
-    <div className="p-8 mb-6">
+    <div data-aos="fade-up"
+    data-aos-duration="2000" className="p-8 mb-6">
       <div id="contact" className="hero">
         <div className="card  flex-shrink-0 lg:w-1/2 sm:w-full shadow-2xl bg-base-100">
           <form action="https://formspree.io/f/mwkzgakk" method="POST">
