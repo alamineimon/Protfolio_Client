@@ -1,6 +1,37 @@
+nav ul{
+    float: 1;
+    text-align: right;
+    padding-right: 30px ;
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav li a{
+    color: steelblue;
+    text-decoration: none;
+    position: relative;
+}
+nav li a::after{
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 3px;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translate(-50%);
+    background: steelblue;
+    transition: 0.3s;
+}
+nav li a:hover::after{
+    width: 100%;
+}
 
 
-.menuItem{
+
+ /* .menuItem{
     font-size: 1rem;
 	font-weight: 500;
 	letter-spacing: 0.1rem;
@@ -9,11 +40,13 @@
 	text-transform: uppercase;
 	padding: 0 20px;
 	display: block;
-}
+} */
+
+/*
 .menuItem:hover{
     transition: 1s;
     color: steelblue;
-}
+} */
 
 .btn-hireMe{
     font-size: 14px;

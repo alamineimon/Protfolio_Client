@@ -4,6 +4,30 @@ import "./Navbar.css";
 const Navbar = (props) => {
   const menuItems = (
     <React.Fragment>
+      {/* <nav>
+        <ul>
+          <li>
+            <a href="/" className="menuItem">
+              HOME
+            </a>
+          </li>
+          <li>
+            <a href="#skills" className="menuItem">
+              SKILLS
+            </a>
+          </li>
+          <li>
+            <a href="#projects" className="menuItem">
+              PROJECTS
+            </a>
+          </li>
+          <li>
+            <a href="#contact" className="menuItem">
+              CONTACT
+            </a>
+          </li>
+        </ul>
+      </nav> */}
       <a href="/" className="menuItem">
         HOME
       </a>
@@ -49,10 +73,33 @@ const Navbar = (props) => {
         <p className="text-3xl text-bold text-steelblue ">Protfolio</p>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal p-0">{menuItems}</ul>
+        <nav>
+        <ul>
+          <li>
+            <a href="/" className="menuItem">
+              HOME
+            </a>
+          </li>
+          <li>
+            <a href="#skills" className="menuItem">
+              SKILLS
+            </a>
+          </li>
+          <li>
+            <a href="#projects" className="menuItem">
+              PROJECTS
+            </a>
+          </li>
+          <li>
+            <a href="#contact" className="menuItem">
+              CONTACT
+            </a>
+          </li>
+        </ul>
+        </nav>
       </div>
       <div className="navbar-end">
-      <a
+        <a
           target="_blank"
           rel="noopener noreferrer"
           href="https://www.linkedin.com/in/eimonalamin/"
