@@ -27,11 +27,10 @@ const ProjectsBody = () => {
             </p>
             <div className="card-actions justify-end">
             <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-center">
-              
               <a target='_blank'
                 rel="noopener noreferrer"
                 href="https://incredible-trip.web.app"
-                className="btn-hireMe"
+                className="btn-hireMe rounded"
               >
                 Live Link
               </a>
@@ -61,7 +60,7 @@ const ProjectsBody = () => {
               <a target='_blank'
                 rel="noopener noreferrer"
                 href="https://tirex-b150d.web.app"
-                className="btn-hireMe"
+                className="btn-hireMe rounded"
               >
                 Live Link
               </a>
@@ -90,7 +89,7 @@ const ProjectsBody = () => {
               <a target='_blank'
                 rel="noopener noreferrer"
                 href="https://p-teams.web.app"
-                className="btn-hireMe"
+                className="btn-hireMe rounded"
               >
                 Live Link
               </a>

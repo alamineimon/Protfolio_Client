@@ -13,8 +13,6 @@
 .menuItem:hover{
     transition: 1s;
     color: steelblue;
-    /* border-bottom:2px solid crimson; */
-    /* height: 2px; */
 }
 
 .btn-hireMe{
@@ -24,8 +22,18 @@
     background-color: steelblue;
 }
 .btn-hireMe:hover{
-    padding: 5px 15px;
     transition: 1s;
     background-color: rgb(5, 177, 119);
-    background-color: none;
 }
+.resume-btn{
+    font-size: 14px;
+    color: white;
+    padding: 5px 25px;
+    background-color: steelblue;
+}
+.resume-btn:hover{
+    transition: 1s;
+    background-color: rgb(5, 177, 119);
+
+}
+
