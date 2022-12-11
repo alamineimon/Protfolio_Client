@@ -2,46 +2,46 @@ import React from "react";
 import "./Navbar.css";
 
 const Navbar = (props) => {
-  const menuItems = (
-    <React.Fragment>
-      {/* <nav>
-        <ul>
-          <li>
-            <a href="/" className="menuItem">
-              HOME
-            </a>
-          </li>
-          <li>
-            <a href="#skills" className="menuItem">
-              SKILLS
-            </a>
-          </li>
-          <li>
-            <a href="#projects" className="menuItem">
-              PROJECTS
-            </a>
-          </li>
-          <li>
-            <a href="#contact" className="menuItem">
-              CONTACT
-            </a>
-          </li>
-        </ul>
-      </nav> */}
-      <a href="/" className="menuItem">
-        HOME
-      </a>
-      <a href="#skills" className="menuItem">
-        SKILLS
-      </a>
-      <a href="#projects" className="menuItem">
-        PROJECTS
-      </a>
-      <a href="#contact" className="menuItem">
-        CONTACT
-      </a>
-    </React.Fragment>
-  );
+  // const menuItems = (
+  //   <React.Fragment>
+  //     {/* <nav>
+  //       <ul>
+  //         <li>
+  //           <a href="/" className="menuItem">
+  //             HOME
+  //           </a>
+  //         </li>
+  //         <li>
+  //           <a href="#skills" className="menuItem">
+  //             SKILLS
+  //           </a>
+  //         </li>
+  //         <li>
+  //           <a href="#projects" className="menuItem">
+  //             PROJECTS
+  //           </a>
+  //         </li>
+  //         <li>
+  //           <a href="#contact" className="menuItem">
+  //             CONTACT
+  //           </a>
+  //         </li>
+  //       </ul>
+  //     </nav> */}
+  //     <a href="/" className="menuItem">
+  //       HOME
+  //     </a>
+  //     <a href="#skills" className="menuItem">
+  //       SKILLS
+  //     </a>
+  //     <a href="#projects" className="menuItem">
+  //       PROJECTS
+  //     </a>
+  //     <a href="#contact" className="menuItem">
+  //       CONTACT
+  //     </a>
+  //   </React.Fragment>
+  // );
 
   return (
     <div className="navbar px-12 bg-base-300 fixed top-0  z-[999]">
@@ -67,7 +67,36 @@ const Navbar = (props) => {
             tabIndex={0}
             className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
           >
-            {menuItems}
+          <li>
+            <a href="/" className="menuItem">
+              HOME
+            </a>
+          </li>
+          <li>
+            <a href="#skills" className="menuItem">
+              SKILLS
+            </a>
+          </li>
+          <li>
+            <a href="#projects" className="menuItem">
+              PROJECTS
+            </a>
+          </li>
+          <li>
+            <a href="#blogs" className="menuItem">
+              BLOGS
+            </a>
+          </li>
+          <li>
+            <a href="#aboutme" className="menuItem">
+              ABOUT ME
+            </a>
+          </li>
+          <li>
+            <a href="#contact" className="menuItem">
+              CONTACT
+            </a>
+          </li>
           </ul>
         </div>
         <p className="text-3xl text-bold text-steelblue ">Protfolio</p>
