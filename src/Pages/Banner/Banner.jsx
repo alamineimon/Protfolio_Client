@@ -2,6 +2,7 @@ import React from "react";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import '../Shared/Navbar/Navbar.css'
 
+
 const Banner = () => {
   const [text] = useTypewriter({
     words: ["Font-End-Developer", "MERN Stck Developer", "Back-End-Developer"],
@@ -30,7 +31,7 @@ const Banner = () => {
                  href="https://drive.google.com/file/d/1SKXx8O13uZjOjeynDo1yO3n7ooTUeXS_/view?usp=sharing"
                  className="btn-hireMe"
                >
-                 RESUME
+                 RESUME 
                </a>
            </div>
       </div>

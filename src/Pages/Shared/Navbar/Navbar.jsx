@@ -16,18 +16,6 @@ const Navbar = (props) => {
       <a href="#contact" className="menuItem">
         CONTACT
       </a>
-      {/* <li className="menuItem">
-        <a href="/" className="menuItem">HOME</a>
-      </li> 
-      <li className="">
-        <a href="#skills">SKILLS</a>
-      </li>
-      <li className="">
-        <a href="#projects">PROJECTS</a>
-      </li>
-      <li className="">
-        <a href="#contact">CONTACT</a>
-      </li> */}
     </React.Fragment>
   );
 
@@ -58,7 +46,7 @@ const Navbar = (props) => {
             {menuItems}
           </ul>
         </div>
-        <p className="text-2xl">Protfolio</p>
+        <p className="text-3xl text-bold text-steelblue ">Protfolio</p>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal p-0">{menuItems}</ul>

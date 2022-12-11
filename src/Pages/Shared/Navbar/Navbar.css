@@ -5,14 +5,14 @@
 	font-weight: 500;
 	letter-spacing: 0.1rem;
 	text-decoration: none;
-	color: gray;
+	color: black;
 	text-transform: uppercase;
 	padding: 0 20px;
 	display: block;
 }
 .menuItem:hover{
     transition: 1s;
-    color: crimson;
+    color: steelblue;
     /* border-bottom:2px solid crimson; */
     /* height: 2px; */
 }
@@ -21,7 +21,7 @@
     font-size: 14px;
     color: white;
     padding: 5px 15px;
-    background-color: crimson;
+    background-color: steelblue;
 }
 .btn-hireMe:hover{
     padding: 5px 15px;
