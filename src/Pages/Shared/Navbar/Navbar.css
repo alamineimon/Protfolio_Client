@@ -26,7 +26,7 @@
     line-height: 80px;
     margin-left: -10px;
     color: transparent;
-    -webkit-text-stroke: 1px #fff;
+    -webkit-text-stroke: 1px steelblue;
     background: url(https://i.ibb.co/ZJcdR6p/back.png);
     -webkit-background-clip: text;
     background-position: 0 0;
@@ -37,10 +37,6 @@
         background-position: 2000px 0;
     }
 }
-
-
-
-
 
 .text-area h3{
     font-size: 30px;
@@ -58,6 +54,23 @@
     padding: 10px 20px;
     margin-right: 20px;
     border:  2px solid #fff;
+    transition: 1s;
+}
+.text-area a:hover{
+    color: steelblue;
+    background: #fff;
+}
+.lastNav a{
+    color: steelblue;
+    text-decoration: none;
+    padding: 10px 25px;
+    margin-right: 20px;
+    border:  2px solid steelblue;
+    transition: 1s;
+}
+.lastNav a:hover{
+    color: #fff;
+    background: steelblue;
 }
 
 
@@ -91,6 +104,17 @@ nav li a::after{
 }
 nav li a:hover::after{
     width: 100%;
+}
+
+.social-icons{
+    position: absolute;
+    right: 5%;
+    bottom: 8%;
+}
+.social-icons img{
+    width: 25px;
+    display: block;
+    margin: 25px 5px;
 }
 
 

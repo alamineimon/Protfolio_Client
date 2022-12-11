@@ -91,6 +91,16 @@ const Navbar = (props) => {
             </a>
           </li>
           <li>
+            <a href="#blogs" className="menuItem">
+              BLOGS
+            </a>
+          </li>
+          <li>
+            <a href="#aboutme" className="menuItem">
+              ABOUT ME
+            </a>
+          </li>
+          <li>
             <a href="#contact" className="menuItem">
               CONTACT
             </a>
@@ -98,12 +108,12 @@ const Navbar = (props) => {
         </ul>
         </nav>
       </div>
-      <div className="navbar-end">
+      <div className="navbar-end lastNav">
         <a
           target="_blank"
           rel="noopener noreferrer"
           href="https://www.linkedin.com/in/eimonalamin/"
-          className="px-8 py-2 text-white btn-hireMe text-lg hover:bg-green-500 hover:border-nonefont-semibold border rounded "
+          className=""
         >
           HIRE ME
         </a>
