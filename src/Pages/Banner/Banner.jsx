@@ -18,8 +18,8 @@ const Banner = () => {
         </div>
         <div className=" lg:w-[500px] lg:ml-6 justify-items-end">
              <h1 className="mb-5 text-5xl font-bold">Hello there !</h1>
-             <p className="mb-5 text-3xl">
-               I'm Al Amin Eimon. <br /> I'm a{" "}
+             <p className="mb-8 text-3xl">
+               I'm Al Amin Eimon. <br />I'm a{" "}
                <span style={{ color: "steelblue" }}>{text} .</span>
                <Cursor cursorColor="steelblue" />
              </p>
@@ -27,7 +27,7 @@ const Banner = () => {
                  target="_blank"
                  rel="noopener noreferrer"
                  href="https://drive.google.com/file/d/1SKXx8O13uZjOjeynDo1yO3n7ooTUeXS_/view?usp=sharing"
-                 className="px-8 py-2 text-lg hover:bg-green-500 bg-blue-500 hover:border-nonefont-semibold border rounded "
+                 className="btn-hireMe text-xl rounded"
                >
                  RESUME
                </a>

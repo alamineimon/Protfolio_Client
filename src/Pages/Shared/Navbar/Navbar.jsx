@@ -68,7 +68,7 @@ const Navbar = (props) => {
           target="_blank"
           rel="noopener noreferrer"
           href="https://www.linkedin.com/in/eimonalamin/"
-          className="px-8 py-2 btn-hireMe text-lg hover:bg-green-500 hover:border-nonefont-semibold border rounded "
+          className="px-8 py-2 text-white btn-hireMe text-lg hover:bg-green-500 hover:border-nonefont-semibold border rounded "
         >
           HIRE ME
         </a>
