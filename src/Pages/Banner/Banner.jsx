@@ -6,7 +6,7 @@ import { BsFillArrowDownCircleFill } from "react-icons/bs";
 
 const Banner = () => {
   const [text] = useTypewriter({
-    words: ["Font-End-Developer", "MERN Stck Developer", "Back-End-Developer"],
+    words: ["Font-End Developer", "MERN Stck Developer", "Back-End Developer"],
     loop: 0,
   });
 
@@ -20,8 +20,8 @@ const Banner = () => {
        
         </div>
         <div className=" lg:w-[500px] lg:ml-6 justify-items-end">
-             <h1 className="mb-5 text-5xl font-bold">Hello there !</h1>
-             <p className="mb-8 text-3xl">
+          <p className="text-5xl">HI!</p>
+             <p className="mb-8 text-5xl">
                I'm Al Amin Eimon. <br />I'm a{" "}
                <span style={{ color: "steelblue" }}>{text} .</span>
                <Cursor cursorColor="steelblue" />
