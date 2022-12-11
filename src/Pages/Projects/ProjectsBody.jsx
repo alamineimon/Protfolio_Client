@@ -1,4 +1,5 @@
 import React from "react";
+import '../Shared/Navbar/Navbar.css'
 
 const ProjectsBody = () => {
   return (
@@ -30,7 +31,7 @@ const ProjectsBody = () => {
               <a target='_blank'
                 rel="noopener noreferrer"
                 href="https://incredible-trip.web.app"
-                className="px-8 py-2 text-sm hover:text-white hover:bg-green-500 hover:border-nonefont-semibold border rounded "
+                className="btn-hireMe"
               >
                 Live Link
               </a>
@@ -60,7 +61,7 @@ const ProjectsBody = () => {
               <a target='_blank'
                 rel="noopener noreferrer"
                 href="https://tirex-b150d.web.app"
-                className="px-8 py-2 text-sm hover:text-white hover:bg-green-500 hover:border-nonefont-semibold border rounded "
+                className="btn-hireMe"
               >
                 Live Link
               </a>
@@ -89,7 +90,7 @@ const ProjectsBody = () => {
               <a target='_blank'
                 rel="noopener noreferrer"
                 href="https://p-teams.web.app"
-                className="px-8 py-2 text-sm hover:text-white hover:bg-green-500 hover:border-nonefont-semibold border rounded "
+                className="btn-hireMe"
               >
                 Live Link
               </a>

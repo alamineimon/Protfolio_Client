@@ -1,5 +1,6 @@
 import React from "react";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
+import '../Shared/Navbar/Navbar.css'
 
 const Banner = () => {
   const [text] = useTypewriter({
@@ -27,7 +28,7 @@ const Banner = () => {
                  target="_blank"
                  rel="noopener noreferrer"
                  href="https://drive.google.com/file/d/1SKXx8O13uZjOjeynDo1yO3n7ooTUeXS_/view?usp=sharing"
-                 className="btn-hireMe text-xl rounded"
+                 className="btn-hireMe"
                >
                  RESUME
                </a>

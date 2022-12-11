@@ -1,10 +1,11 @@
 import React from "react";
+import '../Shared/Navbar/Navbar.css'
 
 const Contact = () => {
   return (
-    <div className="p-8 mb-16">
+    <div className="p-8 mb-6">
       <div id="contact" className="hero">
-          <div className="card  flex-shrink-0 w-1/2 shadow-2xl bg-base-100">
+          <div className="card  flex-shrink-0 lg:w-1/2 sm:w-full shadow-2xl bg-base-100">
             <form action="https://formspree.io/f/mwkzgakk" method="POST">
             <h1 className="text-xl mt-8 -mb-2 text-center">GET IN TOUCH</h1>
             <div className="card-body">
@@ -26,11 +27,11 @@ const Contact = () => {
                 <textarea
                   type="text"
                   placeholder="Enter your message"
-                  className="input input-bordered"
+                  className="input h-[200px] input-bordered"
                 />
               </div>
               <div className="form-control mt-6">
-                <button className="btn btn-outline">Submit</button>
+                <button className="btn-hireMe h-12">Submit</button>
               </div>
             </div>
             </form>
