@@ -13,7 +13,7 @@ const ProjectsBody = () => {
      data-aos-offset="300"
      data-aos-easing="ease-in-sine" className="card  card-compact bg-base-100 shadow-xl">
           <figure>
-            <img src="https://i.ibb.co/gyZXymp/Athetic-Dent.png" alt="Shoes" />
+            <img src="https://i.ibb.co/VwnNb5D/Athetic-Dent.png" alt="Shoes" />
           </figure>
           <div className="card-body">
             <h2 className="card-title">Athetic Dent</h2>
@@ -44,7 +44,7 @@ const ProjectsBody = () => {
         <div data-aos="fade-up"
      data-aos-duration="2000" className="card  lg:mx-8 md:my-8 sm:my-8 lg:my-0 card-compact bg-base-100 shadow-xl">
           <figure>
-            <img src="https://i.ibb.co/4SnDZd5/TireX.png" alt="Shoes" />
+            <img src="https://i.ibb.co/KwJxGVg/TireX.png" alt="Shoes" />
           </figure>
           <div className="card-body">
             <h2 className="card-title">TireX</h2>
@@ -76,7 +76,7 @@ const ProjectsBody = () => {
      data-aos-offset="300"
      data-aos-easing="ease-in-sine" className="card  card-compact bg-base-100 shadow-xl">
           <figure>
-            <img src="https://i.ibb.co/Z6c78TR/P-Teams.png" alt="Shoes" />
+            <img src="https://i.ibb.co/tZSpJR5/p-teams-web-app.png" alt="Shoes" />
           </figure>
           <div className="card-body">
             <h2 className="card-title">P-Teams</h2>
